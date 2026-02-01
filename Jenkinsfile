@@ -10,7 +10,7 @@ pipeline{
         APP_NAME = "devops-mega-project"
         RELEASE = "1.0.0"
         DOCKER_USER = "madanpalsingh"
-        DOCKER_PASS = 'Krishna@1234'
+        DOCKER_PASS = 'dockerhub'
         IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
         IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
         // JENKINS_API_TOKEN = credentials("JENKINS_API_TOKEN")
