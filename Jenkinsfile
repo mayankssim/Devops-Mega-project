@@ -110,13 +110,7 @@ pipeline{
 
     }
 
-    stage("Clean Old Builds") {
-    steps {
-        script {
-            sh "rm -rf /var/lib/jenkins/jobs/Gitops-devops-mega-project/builds/*"
-        }
-    }
-}
+ 
 
 
     post {
